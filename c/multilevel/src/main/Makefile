@@ -1,6 +1,6 @@
 vpath %.so $(TOPDIR)lib
 
-TARGET:=make_test
+TARGET:=make_test.elf
 EXEPATH:=$(TOPDIR)
 
 TARGET_LIBS:=libmylib.so

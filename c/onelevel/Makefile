@@ -2,7 +2,7 @@ TOPDIR:=$(shell pwd)/
 CC:=gcc
 export TOPDIR CC
 
-TARGET:=make_test
+TARGET:=make_test.elf
 
 CPPFLAGS:= -I .
 LDFLAGS:=
